@@ -21,5 +21,5 @@ for n in range(nr_symbols):
 random.shuffle(password)
 
 password_string = "".join(str(character) for character in password)
-4
+
 print(password_string)
